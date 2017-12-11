@@ -1,0 +1,22 @@
+{
+    "name": "chaorenwubin/c89frame",
+    "description": "c89框架系统",
+    "type": "project",
+    "authors": [
+        {
+            "name": "武斌",
+            "email": "wubin.mail@foxmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload":{
+        "files":[
+            "system/helper.php"
+        ],
+        "psr-4":{
+            "houdunwang\\":"houdunwang\\",
+            "app\\":"app\\"
+        }
+    }
+}
